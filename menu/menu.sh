@@ -74,7 +74,7 @@ uram=$( free -m | awk 'NR==2 {print $3}' )
 fram=$( free -m | awk 'NR==2 {print $4}' )
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                      VPS INFO                    \e[0m"
+echo -e "\e[1;34m                      VPS INFORMATION                    \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e "\e[1;32m OS            \e[0m: "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`	
 echo -e "\e[1;32m Uptime        \e[0m: $uptime"
@@ -91,7 +91,7 @@ echo -e "\e[1;32m RAM USED   \e[0m: $uram MB"
 echo -e "\e[1;32m RAM TOTAL  \e[0m: $tram MB"
 echo -e ""
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                       MENU                       \e[0m"
+echo -e "\e[1;34m                       MULTI WEBSOCKET MENU                       \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e   ""
 echo -e "\e[1;35m 1 \e[0m: Menu SSH"
@@ -109,7 +109,7 @@ echo -e "\e[1;32m Client Name \e[0m: $Name"
 echo -e "\e[1;32m Expired     \e[0m: $Exp2"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e   ""
-echo -e "\e[1;35m --------------------t.me/givpn-------------------\e[0m"
+echo -e "\e[1;35m --------------------t.me/SSLHTUNNELMAX-------------------\e[0m"
 echo -e   ""
 read -p " Select menu :  "  opt
 echo -e   ""
